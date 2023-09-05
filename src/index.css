@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* <li className="list-group-item rounded-0 border-bottom-0  border-1 border-black">product 1</li>
+  <li className="list-group-item border-1 border-bottom-0 border-black">product 1</li>
+  <li className="list-group-item border-1 border-bottom-0 border-black">product 1</li>
+  <li className="list-group-item border-1 border-bottom-0 border-black">product 1</li>
+  <li className="list-group-item border-1 border-bottom-0 border-black">product 1</li>
+  <li className="list-group-item rounded-0 border-1 border-black">product 1</li> */
+

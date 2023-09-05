@@ -1,0 +1,48 @@
+body {
+  box-sizing: border-box;
+}
+
+.category {
+    margin: 0 auto; 
+    /* width: 218px; */
+    width: 60%;
+    /* display: flex; */
+    border: 1px solid;
+}
+
+.col-4 {
+  border-right: 1px solid;
+  cursor: pointer;
+  position: relative;
+}
+
+.col-4:last-child {
+  border: none;
+}
+
+.triangle {
+  display: none;
+  position: absolute;
+  height: 100px;
+  width: 20%;
+  top: 5%;
+  z-index: 1;
+}
+
+.triangle::before {
+  content: "";
+  position: absolute;
+  border-width: 15px 27px;
+  border-style: solid;
+  border-color: #ccc transparent transparent transparent;
+  top: 0;
+  left: 30%;  
+}
+
+.col-4:hover {
+  background-color: #ccc;
+}
+
+.col-has-triangle:hover > .triangle {
+  display: block;
+}
